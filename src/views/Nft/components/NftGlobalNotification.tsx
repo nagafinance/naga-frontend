@@ -50,6 +50,7 @@ const NftGlobalNotification = () => {
   const [onPresentBurnModal] = useModal(<NftYouWonModal />)
   const showModal = useRef(() => onPresentBurnModal())
 
+  /*
   useEffect(() => {
     const checkNftStatus = async () => {
       const [totalSupplyDistributedArr, currentDistributedSupplyArr, canClaimArr, hasClaimedArr] = await multicall(
@@ -77,6 +78,7 @@ const NftGlobalNotification = () => {
       checkNftStatus()
     }
   }, [account, showModal])
+  */
 
   return <div />
 }
