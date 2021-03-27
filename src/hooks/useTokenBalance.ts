@@ -15,7 +15,7 @@ const useTokenBalance = (tokenAddress: string) => {
 
   useEffect(() => {
     const fetchBalance = async () => {
-      const res = await getTokenBalance(ethereum, tokenAddress, account)
+      const res = await getTokenBala.nce(ethereum, tokenAddress, account)
       setBalance(new BigNumber(res))
     }
 
