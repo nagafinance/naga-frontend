@@ -7,28 +7,19 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    items: [
-      {
-        label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
-      },
-      {
-        label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
-      },
-    ],
-  },
-  {
     label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Nests',
+    label: 'NFT Farms',
     icon: 'PoolIcon',
     href: '/nests',
+  },
+  {
+    label: 'NFT',
+    icon: 'NftIcon',
+    href: '/nfts',
   },
   // {
   //   label: 'Pools',
