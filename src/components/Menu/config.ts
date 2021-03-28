@@ -17,7 +17,7 @@ const config: MenuEntry[] = [
     href: '/nests',
   },
   {
-    label: 'NFT',
+    label: 'sNFT',
     icon: 'NftIcon',
     href: '/nfts',
   },

@@ -17,17 +17,28 @@ const StyledNtfInfo = styled.div`
 `
 
 const NftInfo = () => {
-  const { canBurnNft } = useContext(NftProviderContext)
-
-  if (!canBurnNft) {
-    return <NftProgressSimple />
-  }
-
   return (
-    <StyledNtfInfo>
-      <NftProgress />
-      <StatusCard />
-    </StyledNtfInfo>
+    <div style={{
+      color: "white",
+      textAlign: "center",
+    }}>
+      <div>Total sNFT Box: 3</div>
+      <div style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
+        <div style={{
+          padding: 12,
+          marginTop: 16,
+          marginBottom: 16,
+          backgroundColor: "#9A6AFF",
+          borderRadius: 10,
+          fontSize: 24,
+          flexBasis: 320,
+        }}>Open Now!</div>
+      </div>
+    </div>
   )
 }
 
