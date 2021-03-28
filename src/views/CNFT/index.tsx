@@ -22,7 +22,7 @@ const Nft = () => {
       <Page>
         <StyledHero>
           <Heading as="h1" size="xxl" color="secondary" mb="24px">
-            sNFT
+            cNFT
           </Heading>
           <Heading as="h2" size="lg" color="secondary">
             {TranslateString(999, '')}

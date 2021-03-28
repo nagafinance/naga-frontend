@@ -3,6 +3,7 @@ import { provider as ProviderType } from 'web3-core'
 import { Contract } from 'web3-eth-contract'
 import { AbiItem } from 'web3-utils'
 import erc20 from 'config/abi/eobnft.json'
+import BigNumber from 'bignumber.js'
 
 export const getContract = (provider: ProviderType, address: string) => {
   const web3 = new Web3(provider)
@@ -27,10 +28,11 @@ export const getTokenBalance = async (
   provider: ProviderType,
   tokenAddress: string,
   userAddress: string,
+  tokenId: BigNumber,
 ): Promise<string> => {
   const contract = getContract(provider, tokenAddress)
   try {
-    const balance: string = await contract.methods.balanceOf(userAddress).call()
+    const balance: string = await contract.methods.balanceOf(userAddress, tokenId).call()
     return balance
   } catch (e) {
     return '0'

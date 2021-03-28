@@ -9,7 +9,7 @@ export default {
   },
   eobNft: {
     56: '0xe70E9185F5ea7Ba3C5d63705784D8563017f2E57',
-    97: '0x0333232f1cAC23D622340c29db6259Aee08785DC',
+    97: '0xEF9dF19044f09429b628d515647Fa2f77d9c6854',
   },
   wbnb: {
     56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',

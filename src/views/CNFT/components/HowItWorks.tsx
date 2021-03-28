@@ -36,7 +36,7 @@ const HowItWorks = () => {
     <Container>
       <StyledHowItWorks>
         <Section>
-          <Heading id="how-it-works" color="secondary" size="lg" mb="16px">
+          <Heading id=" " color="secondary" size="lg" mb="16px">
             {TranslateString(632, ' ')}
           </Heading>
           <Row>
@@ -46,7 +46,7 @@ const HowItWorks = () => {
             <Text>
               {TranslateString(
                 634,
-                'Winners will be able to claim an NFT on this page once the claiming period starts.',
+                ' ',
               )}
             </Text>
           </Row>
@@ -55,7 +55,7 @@ const HowItWorks = () => {
               <ArrowForwardIcon />
             </Icon>
             <Text>
-              {TranslateString(636, 'If you’re not selected, you won’t be able to claim. Better luck next time!')}
+              {TranslateString(636, ' ')}
             </Text>
           </Row>
           <Row>
@@ -65,7 +65,7 @@ const HowItWorks = () => {
             <Text>
               {TranslateString(
                 638,
-                "Winners can trade in their NFTs for a CAKE value until the expiry date written below. If you don't trade in your NFT by then, don’t worry: you’ll still keep it in your wallet!",
+                " ",
               )}
             </Text>
           </Row>

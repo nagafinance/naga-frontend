@@ -13,13 +13,18 @@ const config: MenuEntry[] = [
   },
   {
     label: 'NFT Farms',
-    icon: 'PoolIcon',
+    icon: 'NftIcon',
     href: '/nests',
   },
   {
     label: 'NFT',
     icon: 'NftIcon',
     href: '/nfts',
+  },
+  {
+    label: 'cNFT',
+    icon: 'NftIcon',
+    href: '/cnfts',
   },
   // {
   //   label: 'Pools',

@@ -21,11 +21,7 @@ export interface FarmsProps{
   tokenMode?: boolean
 }
 
-const sectionStyle = {
-  width: "100%",
-  height: "400px",
-  backgroundImage: `url(${'/images/EOB/9.png'})` 
-};
+
 
 const Farms: React.FC<FarmsProps> = (farmsProps) => {
   const { path } = useRouteMatch()
@@ -109,7 +105,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         {TranslateString(10000, ' ')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
-      <div style = { sectionStyle }>
+      <div>
         <Divider />
         <FlexLayout>
           <Route exact path={`${path}`}>
@@ -120,7 +116,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="/images/EOB/.png" alt="illustration" width={1352} height={587} responsive />
+      <Image src="images/nfts/thaiCnft.png" alt="illustration" width={800} height={480} responsive />
     </Page>
   )
 }
