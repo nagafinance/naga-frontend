@@ -55,15 +55,15 @@ const NftProgress = () => {
           {timeLeft ? TranslateString(999, `${timeLeft} left to trade in NFTs`) : TranslateString(999, 'Finished!')}
         </TimeLeft>
         <InfoRow>
-          <Text>{TranslateString(999, "Total NFT's claimed")}:</Text>
+          <Text>{TranslateString(999, " ")}:</Text>
           <Text>
-            <strong>{!isInitialized ? '...' : `${currentDistributedSupply}/${totalSupplyDistributed}`}</strong>
+            <strong>{!isInitialized ? ' ' : `${currentDistributedSupply}/${totalSupplyDistributed}`}</strong>
           </Text>
         </InfoRow>
         <InfoRow>
-          <Text>{TranslateString(999, "Total NFT's burned")}:</Text>
+          <Text>{TranslateString(999, " ")}:</Text>
           <Text>
-            <strong>{!isInitialized ? '...' : `${countBunniesBurnt}/${totalSupplyDistributed}`}</strong>
+            <strong>{!isInitialized ? ' ' : `${countBunniesBurnt}/${totalSupplyDistributed}`}</strong>
           </Text>
         </InfoRow>
         <InfoRow>

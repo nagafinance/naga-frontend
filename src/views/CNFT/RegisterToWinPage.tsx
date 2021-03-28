@@ -27,36 +27,7 @@ const Cta = styled.div`
 const RegisterToWinPage = () => {
   const TranslateString = useI18n()
 
-  return (
-    <Page>
-      <Container>
-        <StyledHero>
-          <Heading as="h1" size="xxl" color="secondary" mb="24px">
-            cNFT
-          </Heading>
-          <Heading as="h2" size="lg" color="secondary" mb="16px">
-            {TranslateString(614, '')}
-          </Heading>
-          <Text mb="24px">{TranslateString(616, '')}</Text>
-          <Cta>
-            <Button
-              as="a"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfToBNlovtMvTZFSwOhk0TBiDPMGasLxqG0RB-kJN85HR_avA/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {TranslateString(618, 'Register for a chance to win')}
-            </Button>
-            <Button as="a" href="#how-it-works" variant="secondary">
-              {TranslateString(620, 'Learn more')}
-            </Button>
-          </Cta>
-        </StyledHero>
-      </Container>
-      <NftPreview />
-      <HowItWorks />
-    </Page>
-  )
+  return <div></div>
 }
 
 export default RegisterToWinPage

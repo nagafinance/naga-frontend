@@ -56,7 +56,7 @@ const PrizeGrid: React.FC<PrizeGridProps> = ({
       {pastDraw && (
         <PastDrawGridItem>
           <RightAlignedText fontSize="14px" color="textSubtle">
-            {TranslateString(999, 'Winners')}
+            {TranslateString(999, ' ')}
           </RightAlignedText>
         </PastDrawGridItem>
       )}

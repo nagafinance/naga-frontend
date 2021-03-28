@@ -32,68 +32,7 @@ const Row = styled.div`
 const HowItWorks = () => {
   const TranslateString = useI18n()
 
-  return (
-    <Container>
-      <StyledHowItWorks>
-        <Section>
-          <Heading id=" " color="secondary" size="lg" mb="16px">
-            {TranslateString(632, ' ')}
-          </Heading>
-          <Row>
-            <Icon>
-              <ArrowForwardIcon />
-            </Icon>
-            <Text>
-              {TranslateString(
-                634,
-                ' ',
-              )}
-            </Text>
-          </Row>
-          <Row>
-            <Icon>
-              <ArrowForwardIcon />
-            </Icon>
-            <Text>
-              {TranslateString(636, ' ')}
-            </Text>
-          </Row>
-          <Row>
-            <Icon>
-              <ArrowForwardIcon />
-            </Icon>
-            <Text>
-              {TranslateString(
-                638,
-                " ",
-              )}
-            </Text>
-          </Row>
-        </Section>
-        <Section>
-          <Heading color="secondary" size="lg" mb="16px">
-            {TranslateString(640, 'How are winners selected?')}
-          </Heading>
-          <Row>
-            <Icon>
-              <ArrowForwardIcon />
-            </Icon>
-            <Text>{TranslateString(642, 'Winners are selected at random! Good luck!')}</Text>
-          </Row>
-        </Section>
-        <div>
-          <Button
-            as="a"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfToBNlovtMvTZFSwOhk0TBiDPMGasLxqG0RB-kJN85HR_avA/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {TranslateString(644, 'Register for a chance to win')}
-          </Button>
-        </div>
-      </StyledHowItWorks>
-    </Container>
-  )
+  return <div>.</div>
 }
 
 export default HowItWorks
