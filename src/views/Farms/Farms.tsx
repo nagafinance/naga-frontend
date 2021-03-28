@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import BigNumber from 'bignumber.js'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { provider } from 'web3-core'
-import { Image, Heading } from '@pancakeswap-libs/uikit'
+import { Image, Heading, BackgroundImage } from '@pancakeswap-libs/uikit'
 import { BLOCKS_PER_YEAR, CAKE_PER_BLOCK, CAKE_POOL_PID } from 'config'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
@@ -20,6 +20,12 @@ import Divider from './components/Divider'
 export interface FarmsProps{
   tokenMode?: boolean
 }
+
+const sectionStyle = {
+  width: "100%",
+  height: "400px",
+  backgroundImage: `url(${'/images/EOB/9.png'})` 
+};
 
 const Farms: React.FC<FarmsProps> = (farmsProps) => {
   const { path } = useRouteMatch()
@@ -94,16 +100,16 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn EGG')
+            TranslateString(10002, 'Stake tokens to earn EOB')
             :
-          TranslateString(320, 'Stake LP tokens to earn EGG')
+          TranslateString(320, 'Stake LP tokens to earn EOB')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
+      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center'}} {...{BackgroundImage : `url(${'/images/EOB/9.png'})`  }}>
         {TranslateString(10000, 'Deposit Fee will be used to buyback EGG')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
-      <div>
+      <div style = { sectionStyle }>
         <Divider />
         <FlexLayout>
           <Route exact path={`${path}`}>
@@ -114,7 +120,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="/images/EOB/8.png" alt="illustration" width={1352} height={587} responsive />
+      <Image src="/images/EOB/.png" alt="illustration" width={1352} height={587} responsive />
     </Page>
   )
 }
