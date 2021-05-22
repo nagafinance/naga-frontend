@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total EOB burned since launch"
+        "text": "Total NAGA burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn EOB"
+        "text": "Stake LP tokens to earn NAGA"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake EOB, get SYRUP."
+        "text": "Stake NAGA, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake EOB tokens, the contract will automatically harvest EOB rewards for you!"
+        "text": "Every time you stake and unstake NAGA tokens, the contract will automatically harvest NAGA rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "EOB price"
+        "text": "NAGA price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 EOB = 1 SYRUP"
+        "text": "1 NAGA = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of EOB block emissions each day (10 EOB per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of NAGA block emissions each day (10 NAGA per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% EOB"
+        "text": "%num% NAGA"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend EOB to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend NAGA to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% EOB Available"
+        "text": "%num% NAGA Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 EOB"
+        "text": "Your amount must be a multiple of 10 NAGA"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 EOB"
+        "text": "1 Ticket = 10 NAGA"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your EOB cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your NAGA cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "EOB prizes to be claimed"
+        "text": "NAGA prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve EOB"
+        "text": "Approve NAGA"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of EOB block emissions each day (10 EOB per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of NAGA block emissions each day (10 NAGA per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using EOB-BNB LP tokens, which means you need to stake equal amounts of EOB and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using NAGA-BNB LP tokens, which means you need to stake equal amounts of NAGA and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get EOB-BNB LP >"
+        "text": "Get NAGA-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Estate OnBlock burns the EOB."
+        "text": "The project gets the BNB, NewGen burns the NAGA."
       }
     },
     {
@@ -597,7 +597,7 @@
     {
       "data": {
         "stringId": 514,
-        "text": "Launch your project with Estate OnBlock, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
+        "text": "Launch your project with NewGen, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "EOB Stats"
+        "text": "NAGA Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New EOB\/block"
+        "text": "New NAGA\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "EOB to Harvest"
+        "text": "NAGA to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "EOB in Wallet"
+        "text": "NAGA in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting EOB"
+        "text": "Collecting NAGA"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "EOB to Collect"
+        "text": "NAGA to Collect"
       }
     },
     {
@@ -753,7 +753,7 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Estate OnBlock"
+        "text": " "
       }
     },
     
@@ -766,7 +766,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake EOB to earn new tokens."
+        "text": "Stake NAGA to earn new tokens."
       }
     },
     {
@@ -784,7 +784,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "EOB to burn (USD)"
+        "text": "NAGA to burn (USD)"
       }
     },
     {
@@ -796,7 +796,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest EOB rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest NAGA rewards for you!"
       }
     },
     {
@@ -814,13 +814,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy EOB and BNB tokens"
+        "text": "Buy NAGA and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get EOB-BNB LP tokens by adding EOB and BNB liquidity"
+        "text": "Get NAGA-BNB LP tokens by adding NAGA and BNB liquidity"
       }
     },
     {
@@ -832,7 +832,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your EOB-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your NAGA-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -868,7 +868,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for EOB, or keep for your collection!"
+        "text": "Trade in for NAGA, or keep for your collection!"
       }
     },
     {
@@ -910,7 +910,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive EOB, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive NAGA, you will lose access to it forever!"
       }
     },
     {
@@ -982,7 +982,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for EOB"
+        "text": "Trade in for NAGA"
       }
     },
     {
@@ -1108,7 +1108,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn EOB"
+        "text": "Stake LP tokens to earn NAGA"
       }
     },
     {
@@ -1150,13 +1150,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The EOB Lottery"
+        "text": "The NAGA Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with EOB"
+        "text": "Buy tickets with NAGA"
       }
     },
     {
@@ -1222,7 +1222,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn EOB"
+        "text": "Stake tokens to earn NAGA"
       }
     },
     {

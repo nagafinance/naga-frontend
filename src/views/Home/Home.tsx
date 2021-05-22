@@ -11,7 +11,7 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/house.png');
+  background-image: url('/images/newgen_home.png');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Estate-OnBlock')}
+          {TranslateString(576, 'BlockChain The new Gen')}
         </Heading>
         <Text>{TranslateString(578, '')}</Text>
       </Hero>

@@ -16,7 +16,7 @@ import useAllEarnings from '../../../hooks/useAllEarnings'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('/images/EOB/logo.png');
+  background-image: url('/images/NAGA/.png');
   background-repeat: no-repeat;
   background-position: top -15% right -20%;
   background-size : 250px;
@@ -72,14 +72,14 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/EOB/logo.png" alt="cake logo" width={64} height={64} />
+        <CardImage src="/images/egg/9.png" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'EOB to Harvest')}</Label>
+          <Label>{TranslateString(544, 'NAGA to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
           <Label>~${(EOBPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'EOB in Wallet')}</Label>
+          <Label>{TranslateString(546, 'NAGA in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(EOBPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
@@ -92,7 +92,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting EOB')
+                ? TranslateString(548, 'Collecting NAGA')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

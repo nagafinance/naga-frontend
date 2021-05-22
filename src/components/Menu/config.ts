@@ -12,20 +12,21 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'NFT Farms',
-    icon: 'NftIcon',
+    label: 'Pool',
+    icon: 'PoolIcon',
     href: '/nests',
   },
-  {
-    label: 'sNFT',
-    icon: 'NftIcon',
-    href: '/nfts',
-  },
-  {
-    label: 'cNFT',
-    icon: 'NftIcon',
-    href: '/cnfts',
-  },
+  
+  // {
+  //   label: 'sNFT',
+  //   icon: 'NftIcon',
+  //   href: '/nfts',
+  // },
+  // {
+  //   label: 'cNFT',
+  //   icon: 'NftIcon',
+  //   href: '/cnfts',
+  // },
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',

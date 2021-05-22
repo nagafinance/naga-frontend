@@ -32,16 +32,16 @@ const CakeStats = () => {
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = EOBPrice.times(circSupply);
 
-  let EOBPerBlock = 0;
-  if(farms && farms[0] && farms[0].EOBPerBlock){
-    EOBPerBlock = new BigNumber(farms[0].EOBPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let NAGAPerBlock = 0;
+  if(farms && farms[0] && farms[0].NAGAPerBlock){
+    NAGAPerBlock = new BigNumber(farms[0].NAGAPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'EOB Stats')}
+          {TranslateString(534, 'NAGA Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -60,8 +60,8 @@ const CakeStats = () => {
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New EOB/block')}</Text>
-          <Text bold fontSize="14px">{EOBPerBlock}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New NAGA/block')}</Text>
+          <Text bold fontSize="14px">{NAGAPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>

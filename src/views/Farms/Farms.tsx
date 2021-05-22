@@ -96,12 +96,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn EOB')
+            TranslateString(10002, 'Stake tokens to earn NAGA')
             :
-          TranslateString(320, 'Stake LP tokens to earn EOB')
+          TranslateString(320, 'Stake LP tokens to earn NAGA')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center'}} {...{BackgroundImage : `url(${'/images/EOB/9.png'})`  }}>
+      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center'}} {...{BackgroundImage : `url(${'/images/NAGA/9.png'})`  }}>
         {TranslateString(10000, ' ')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
@@ -116,7 +116,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="images/nfts/thaiCnft.png" alt="illustration" width={800} height={480} responsive />
+      <Image src="images/.png" alt="illustration" width={800} height={480} responsive />
     </Page>
   )
 }

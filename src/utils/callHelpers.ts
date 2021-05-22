@@ -105,8 +105,8 @@ export const soushHarvestBnb = async (sousChefContract, account) => {
     })
 }
 
-export const openLandBox = async (eobNftContract, amount, account) => {
-  return eobNftContract.methods
+export const openLandBox = async (NAGANftContract, amount, account) => {
+  return NAGANftContract.methods
     .openLandBox(amount)
     .send({ from: account })
     .on('transactionHash', (tx) => {
@@ -114,8 +114,8 @@ export const openLandBox = async (eobNftContract, amount, account) => {
     })
 }
 
-export const openSNftBox = async (eobNftContract, tokenId, amount, account) => {
-  return eobNftContract.methods
+export const openSNftBox = async (NAGANftContract, tokenId, amount, account) => {
+  return NAGANftContract.methods
     .openSNftBox(tokenId, amount)
     .send({ from: account })
     .on('transactionHash', (tx) => {
