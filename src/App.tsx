@@ -16,7 +16,6 @@ const Lottery = lazy(() => import('./views/Lottery'))
 const Pools = lazy(() => import('./views/Pools'))
 // const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
-
 // This config is required for number formating
 BigNumber.config({
   EXPONENTIAL_AT: 1000,

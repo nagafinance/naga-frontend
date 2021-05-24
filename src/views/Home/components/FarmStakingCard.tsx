@@ -16,9 +16,9 @@ import useAllEarnings from '../../../hooks/useAllEarnings'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('/images/NAGA/.png');
+  background-image: url('/images/Naga_Profile.png');
   background-repeat: no-repeat;
-  background-position: top -15% right -20%;
+  background-position: top 45% right 8%;
   background-size : 250px;
   min-height: 200px;
 `

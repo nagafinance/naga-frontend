@@ -11,7 +11,7 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/Top-left_home.png');
+  background-image: url('/images/newgen_homepage.png');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,8 +23,8 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-position: left center, right center;
-    height: 165px;
+    background-position: center;
+    height: 200px;
     padding-top: 0;
   }
 `
