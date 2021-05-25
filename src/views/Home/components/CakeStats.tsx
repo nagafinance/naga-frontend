@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, Heading, Text } from '@pancakeswap-libs/uikit'
+import { Button, Card, CardBody, Heading, Text } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js/bignumber'
 import styled from 'styled-components'
 import { getBalanceNumber } from 'utils/formatBalance'
@@ -42,6 +42,10 @@ const CakeStats = () => {
       <CardBody>
         <Heading size="xl" mb="24px">
           {TranslateString(534, 'NAGA Stats')}
+          <div>
+            <Button href = "https://pancake.kiemtienonline360.com/#/swap?outputCurrency=0x6363c06453ecd85d922b108f77f3abe254e24678"> BUY NAGA </Button>
+          </div>
+
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
