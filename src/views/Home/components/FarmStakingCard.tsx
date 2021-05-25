@@ -19,7 +19,7 @@ const StyledFarmStakingCard = styled(Card)`
   background-image: url('/images/Naga_Profile.png');
   background-repeat: no-repeat;
   background-position: top 45% right 8%;
-  background-size : 250px;
+  background-size : 175px;
   min-height: 200px;
 `
 

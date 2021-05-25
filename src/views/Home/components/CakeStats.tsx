@@ -43,7 +43,7 @@ const CakeStats = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(534, 'NAGA Stats')}
           <div>
-            <Button href = "https://pancake.kiemtienonline360.com/#/swap?outputCurrency=0x6363c06453ecd85d922b108f77f3abe254e24678"> BUY NAGA </Button>
+            <Button> <a href = "https://pancake.kiemtienonline360.com/#/swap?outputCurrency=0x6363c06453ecd85d922b108f77f3abe254e24678"> BUY NAGA </a> </Button>
           </div>
 
         </Heading>
