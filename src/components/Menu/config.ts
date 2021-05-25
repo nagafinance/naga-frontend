@@ -88,9 +88,9 @@ const config: MenuEntry[] = [
   //   href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
   // },
   // {
-  //   label: 'Audit by Hacken',
+  //   label: 'Click',
   //   icon: 'AuditIcon',
-  //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+  //   href: 'https://pancake.kiemtienonline360.com/#/swap?outputCurrency=0x6363c06453ecd85d922b108f77f3abe254e24678',
   // },
   // {
   //   label: 'Audit by CertiK',
