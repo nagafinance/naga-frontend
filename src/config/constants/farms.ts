@@ -279,7 +279,7 @@ const farms: FarmConfig[] = [
   //   quoteTokenAdresses: contracts.wbnb,
   // },
   {
-    pid: 12,
+    pid: 1,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'NAGA',
