@@ -16,9 +16,9 @@ import useAllEarnings from '../../../hooks/useAllEarnings'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('/images/Naga_Profile.png');
+  background-image: url('/images/Naga_char/Character-09.png');
   background-repeat: no-repeat;
-  background-position: top 45% right 8%;
+  background-position: top 45% right 20%;
   background-size : 175px;
   min-height: 200px;
 `
@@ -72,7 +72,7 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/egg/9.png" alt="cake logo" width={64} height={64} />
+        <CardImage src="/images/naga_token.png" alt="cake logo" width={64} height={64} />
         <Block>
           <Label>{TranslateString(544, 'NAGA to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>

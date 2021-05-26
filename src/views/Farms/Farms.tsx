@@ -101,7 +101,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           TranslateString(320, 'Stake LP tokens to earn NAGA')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center'}} {...{BackgroundImage : `url(${'/images/NAGA/9.png'})`  }}>
+      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center'}} {...{BackgroundImage : `url(${'/images/Naga_char/Character-02.png'})`  }}>
         {TranslateString(10000, ' ')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
@@ -116,7 +116,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="images/.png" alt="illustration" width={800} height={480} responsive />
+      <Image src="images/Naga_char/Character-02.png" alt="illustration" width={380} height={450} marginLeft = {280} marginTop = {100} />
     </Page>
   )
 }
