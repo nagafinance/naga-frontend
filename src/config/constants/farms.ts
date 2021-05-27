@@ -282,12 +282,12 @@ const farms: FarmConfig[] = [
     pid: 1,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'NAGA',
+    lpSymbol: 'naga',
     lpAddresses: {
       97: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
-    tokenSymbol: 'NAGA',
+    tokenSymbol: 'naga',
     tokenAddresses: {
       97: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
       56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
