@@ -32,11 +32,11 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
+  {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '/NotFound',
+  },
   // {
   //   label: 'NFT',
   //   icon: 'NftIcon',
@@ -64,24 +64,24 @@ const config: MenuEntry[] = [
   //     },
   //   ],
   // },
-  // {
-  //   label: 'More',
-  //   icon: 'MoreIcon',
-  //   items: [
-  //     {
-  //       label: 'Github',
-  //       href: 'https://github.com/goosedefi/',
-  //     },
-  //     {
-  //       label: 'Docs',
-  //       href: 'https://goosedefi.gitbook.io/goose-finance/',
-  //     },
-  //     {
-  //       label: 'Blog',
-  //       href: 'https://goosefinance.medium.com/',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Github',
+        href: 'https://github.com/goosedefi/',
+      },
+      {
+        label: 'Docs',
+        href: 'https://goosedefi.gitbook.io/goose-finance/',
+      },
+      {
+        label: 'Blog',
+        href: 'https://goosefinance.medium.com/',
+      },
+    ],
+  },
   // {
   //   label: 'Partnerships/IFO',
   //   icon: 'GooseIcon',
