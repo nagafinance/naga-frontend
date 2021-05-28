@@ -69,6 +69,16 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
+        label: 'Contact',
+        href : ''
+
+      },
+      {
+        label: 'Voting',
+        href : ''
+
+      },
+      {
         label: 'Github',
         href: 'https://github.com/NGen-Defi-Society',
       },
