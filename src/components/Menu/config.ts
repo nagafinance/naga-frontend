@@ -70,11 +70,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'https://github.com/NGen-Defi-Society',
       },
       {
         label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
+        href: 'https://blockchain-the-new-gen.gitbook.io/',
       },
       {
         label: 'Blog',
