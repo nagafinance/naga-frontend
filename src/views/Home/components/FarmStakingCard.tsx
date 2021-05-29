@@ -46,7 +46,7 @@ const FarmedStakingCard = () => {
   const TranslateString = useI18n()
   const farmsWithBalance = useFarmsWithBalance()
   const cakeBalance = getBalanceNumber(useTokenBalance(getCakeAddress()))
-  const EOBPrice = usePriceCakeBusd().toNumber()
+  const NAGAPrice = usePriceCakeBusd().toNumber()
   const allEarnings = useAllEarnings()
   const earningsSum = allEarnings.reduce((accum, earning) => {
     return accum + new BigNumber(earning).div(new BigNumber(10).pow(18)).toNumber()
@@ -76,12 +76,12 @@ const FarmedStakingCard = () => {
         <Block>
           <Label>{TranslateString(544, 'NAGA to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
-          <Label>~${(EOBPrice * earningsSum).toFixed(2)}</Label>
+          <Label>~${(NAGAPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
           <Label>{TranslateString(546, 'NAGA in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
-          <Label>~${(EOBPrice * cakeBalance).toFixed(2)}</Label>
+          <Label>~${(NAGAPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
         <Actions>
           {account ? (

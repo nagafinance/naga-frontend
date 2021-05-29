@@ -21,7 +21,7 @@ const farms: FarmConfig[] = [
   // {
   //   pid: 1,
   //   risk: 5,
-  //   lpSymbol: 'EOB-BUSD LP',
+  //   lpSymbol: 'NAGA-BUSD LP',
   //   lpAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
@@ -54,12 +54,12 @@ const farms: FarmConfig[] = [
   //   pid: 4,
   //   risk: 5,
   //   isTokenOnly: true,
-  //   lpSymbol: 'EOB + THAI',
+  //   lpSymbol: 'NAGA + THAI',
   //   lpAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0xF89b0463e903E7260E927eD24FC5b4FeC4Bd5DDa',
   //   },
-  //   tokenSymbol: 'EOB + THAI',
+  //   tokenSymbol: 'NAGA + THAI',
   //   tokenAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
@@ -71,12 +71,12 @@ const farms: FarmConfig[] = [
   //   pid: 5,
   //   risk: 5,
   //   isTokenOnly: true,
-  //   lpSymbol: 'EOB + JAPAN',
+  //   lpSymbol: 'NAGA + JAPAN',
   //   lpAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0xF89b0463e903E7260E927eD24FC5b4FeC4Bd5DDa',
   //   },
-  //   tokenSymbol: 'EOB + JAPAN',
+  //   tokenSymbol: 'NAGA + JAPAN',
   //   tokenAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
@@ -88,12 +88,12 @@ const farms: FarmConfig[] = [
   //   pid: 6,
   //   risk: 5,
   //   isTokenOnly: true,
-  //   lpSymbol: 'EOB + FRANCE',
+  //   lpSymbol: 'NAGA + FRANCE',
   //   lpAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0xF89b0463e903E7260E927eD24FC5b4FeC4Bd5DDa',
   //   },
-  //   tokenSymbol: 'EOB + FRANCE',
+  //   tokenSymbol: 'NAGA + FRANCE',
   //   tokenAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
@@ -105,12 +105,12 @@ const farms: FarmConfig[] = [
   //   pid: 6,
   //   risk: 5,
   //   isTokenOnly: true,
-  //   lpSymbol: 'EOB + USA',
+  //   lpSymbol: 'NAGA + USA',
   //   lpAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0xF89b0463e903E7260E927eD24FC5b4FeC4Bd5DDa',
   //   },
-  //   tokenSymbol: 'EOB + USA',
+  //   tokenSymbol: 'NAGA + USA',
   //   tokenAddresses: {
   //     97: '0x1b66b84545F80a6515931f7D5431c24c95239b03',
   //     56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
@@ -121,12 +121,12 @@ const farms: FarmConfig[] = [
   // {
   //   pid: 1,
   //   risk: 5,
-  //   lpSymbol: 'EOB-BNB LP',
+  //   lpSymbol: 'NAGA-BNB LP',
   //   lpAddresses: {
   //     97: '',
   //     56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
   //   },
-  //   tokenSymbol: 'EOB',
+  //   tokenSymbol: 'NAGA',
   //   tokenAddresses: {
   //     97: '',
   //     56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
@@ -302,7 +302,7 @@ const farms: FarmConfig[] = [
   //   lpSymbol: 'BUSD',
   //   lpAddresses: {
   //     97: '0x3b1f033dd955f3be8649cc9825a2e3e194765a3f',
-  //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EOB-BUSD LP (BUSD-BUSD will ignore)
+  //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // NAGA-BUSD LP (BUSD-BUSD will ignore)
   //   },
   //   tokenSymbol: 'BUSD',
   //   tokenAddresses: {

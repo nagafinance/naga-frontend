@@ -27,12 +27,12 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms();
-  const EOBPrice = usePriceCakeBusd();
+  const NAGAPrice = usePriceCakeBusd();
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
   const cakeSupply = getBalanceNumber(circSupply);
-  const marketCap = EOBPrice.times(circSupply);
+  const marketCap = NAGAPrice.times(circSupply);
 
-  let NAGAPerBlock = 0;
+  let NAGAPerBlock = 10;
   if(farms && farms[0] && farms[0].NAGAPerBlock){
     NAGAPerBlock = new BigNumber(farms[0].NAGAPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
