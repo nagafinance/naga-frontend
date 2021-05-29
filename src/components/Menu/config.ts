@@ -33,7 +33,7 @@ const config: MenuEntry[] = [
   //   href: '/pools',
   // },
   {
-    label: 'Lottery',
+    label: 'Lucky Draw',
     icon: 'TicketIcon',
     href: '/NotFound',
   },
@@ -70,12 +70,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Contact',
-        href : ''
+        href : 'https://blockchain-the-new-gen.gitbook.io/ngen-1/about-us/contact'
 
       },
       {
         label: 'Voting',
-        href : ''
+        href : 'https://snapshot.org/#/nagafinance.eth'
 
       },
       {
@@ -88,7 +88,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        href: 'https://blockchainthenewgen.com/',
       },
     ],
   },
