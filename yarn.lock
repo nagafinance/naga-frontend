@@ -1931,7 +1931,7 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@github:NGen-Defi-Society/ngen-uikit":
+"@naga-uikit/naga-uikit@github:NGen-Defi-Society/ngen-uikit":
   version "0.10.2"
   resolved "https://codeload.github.com/NGen-Defi-Society/ngen-uikit/tar.gz/863b868d051f4a661f4b1c63418e4bae0b6cd491"
   dependencies:
