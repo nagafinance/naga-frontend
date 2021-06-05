@@ -33,6 +33,11 @@ const config: MenuEntry[] = [
   //   href: '/pools',
   // },
   {
+    label: 'BNFT',
+    icon: 'NftIcon',
+    href: '/bnfts',
+  },
+  {
     label: 'Lucky Draw',
     icon: 'TicketIcon',
     href: '/NotFound',

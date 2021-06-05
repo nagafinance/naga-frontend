@@ -192,7 +192,7 @@
   },
   {
     "inputs": [],
-    "name": "cake",
+    "name": "naga",
     "outputs": [
       {
         "internalType": "contract IERC20",

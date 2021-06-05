@@ -2,8 +2,9 @@ import addresses from 'config/constants/contracts'
 
 const chainId = process.env.REACT_APP_CHAIN_ID
 
+
 export const getCakeAddress = () => {
-  return addresses.cake[chainId]
+  return addresses.naga[chainId]
 }
 export const getMasterChefAddress = () => {
   return addresses.masterChef[chainId]

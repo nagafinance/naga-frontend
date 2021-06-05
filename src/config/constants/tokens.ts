@@ -3,7 +3,7 @@ const tokens = {
       symbol: 'BNB',
       projectLink: 'https://www.binance.com/',
     },
-    cake: {
+    naga: {
       symbol: 'CAKE',
       address: {
         56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',

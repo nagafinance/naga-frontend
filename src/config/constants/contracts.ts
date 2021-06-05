@@ -1,5 +1,5 @@
 export default {
-  cake: {
+  naga: {
     56: '0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
     97: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
   },

@@ -4,12 +4,11 @@ const pools: PoolConfig[] = [
   {
     sousId: 0,
     tokenName: 'NAGA',
-    image: 'naga',
     stakingTokenName: QuoteToken.CAKE,
     stakingTokenAddress: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
     contractAddress: {
-      97: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
-      56: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
+      97: '0x0187Be5f6e7D040a7D1F1e4FF635cFfc312a7942',
+      56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://pancakeswap.finance/',
