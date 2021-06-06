@@ -12,7 +12,7 @@ const pools: PoolConfig[] = [
       56: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
     },
     poolCategory: PoolCategory.CORE,
-    projectLink: 'https://pancakeswap.finance/',
+    projectLink: 'https://blockchainthenewgen.com',
     harvest: true,
     tokenPerBlock: '10',
     sortOrder: 1,
