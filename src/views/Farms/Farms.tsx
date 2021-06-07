@@ -96,7 +96,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn NAGA')
+            TranslateString(10002, 'Stake your tokens or your BNFTs to earn NAGA')
             :
           TranslateString(320, 'Stake LP tokens to earn NAGA')
         }
