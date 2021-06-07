@@ -32,11 +32,11 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
-  {
-    label: 'BNFT',
-    icon: 'NftIcon',
-    href: '/bnfts',
-  },
+  // {
+  //   label: 'BNFT',
+  //   icon: 'NftIcon',
+  //   href: '/bnfts',
+  // },
   {
     label: 'Lucky Draw',
     icon: 'TicketIcon',
