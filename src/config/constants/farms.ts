@@ -7,12 +7,12 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'NAGA-BNB LP',
     lpAddresses: {
-      97: '0x9b78146a8ddeba1dc936365173eb510efe717c73',
+      97: '0x1b1d866316b64176ae169b08ffecddad744617e1',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
     tokenSymbol: 'NAGA',
     tokenAddresses: {
-      97: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
+      97: '0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
       56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
     },
     quoteTokenSymbol: QuoteToken.BNB,
@@ -284,16 +284,33 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'NAGA',
     lpAddresses: {
-      97: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
+      97: '0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
     tokenSymbol: 'NAGA',
     tokenAddresses: {
-      97: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
+      97: '0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
       56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 2,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'BNFT',
+    lpAddresses: {
+      97: '0x0228a97Bd226755d6182B3FBf19811Ea62405C56',
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+    },
+    tokenSymbol: 'BNFT',
+    tokenAddresses: {
+      97: '0x0228a97Bd226755d6182B3FBf19811Ea62405C56',
+      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   },
   // {
   //   pid: 13,
