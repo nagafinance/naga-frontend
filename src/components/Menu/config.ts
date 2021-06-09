@@ -7,6 +7,20 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
+    label: 'BUY NAGA',
+    icon: 'TradeIcon',
+    items: [
+      {
+        label: 'Exchange',
+        href: 'https://pancake.kiemtienonline360.com/#/swap?outputCurrency=0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
+      },
+      // {
+      //   label: 'Liquidity',
+      //   href: 'https://pancake.kiemtienonline360.com//#/add/${liquidityUrlPathParts}',
+      // },
+    ],
+  },
+  {
     label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
@@ -37,11 +51,11 @@ const config: MenuEntry[] = [
   //   icon: 'NftIcon',
   //   href: '/bnfts',
   // },
-  {
-    label: 'Lucky Draw',
-    icon: 'TicketIcon',
-    href: '/NotFound',
-  },
+  // {
+  //   label: 'Lucky Draw',
+  //   icon: 'TicketIcon',
+  //   href: '/NotFound',
+  // },
   // {
   //   label: 'NFT',
   //   icon: 'NftIcon',
