@@ -14,10 +14,10 @@ const config: MenuEntry[] = [
         label: 'Exchange',
         href: 'https://pancake.kiemtienonline360.com/#/swap?outputCurrency=0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
       },
-      // {
-      //   label: 'Liquidity',
-      //   href: 'https://pancake.kiemtienonline360.com//#/add/${liquidityUrlPathParts}',
-      // },
+      {
+        label: 'Liquidity',
+        href: 'https://pancake.kiemtienonline360.com//#/add/ETH/0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
+      },
     ],
   },
   {
