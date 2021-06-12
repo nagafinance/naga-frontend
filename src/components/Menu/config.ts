@@ -1,4 +1,4 @@
-import { MenuEntry } from '@naga-uikit/naga-uikit'
+import { MenuEntry } from 'naga-uikit/widgets/Menu'
 
 const config: MenuEntry[] = [
   {
@@ -28,7 +28,7 @@ const config: MenuEntry[] = [
   {
     label: 'Pool',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/pools',
   },
   
   // {

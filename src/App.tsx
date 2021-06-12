@@ -15,10 +15,10 @@ import './App.css'
 const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
 const Lottery = lazy(() => import('./views/Lottery'))
-const Pools = lazy(() => import('./views/Pools'))
+// const Pools = lazy(() => import('./views/Pools'))
 // const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
-const Bnft = lazy(() => import('./views/BNft'))
+// const Bnft = lazy(() => import('./views/BNft'))
 // This config is required for number formating
 BigNumber.config({
   EXPONENTIAL_AT: 1000,
@@ -48,11 +48,8 @@ const App: React.FC = () => {
             <Route path="/farms">
               <Farms />
             </Route>
-            <Route path="/nests">
-              <Farms tokenMode/>
-            </Route>
             <Route path="/pools">
-            <Pools />
+              <Farms tokenMode/>
             </Route>
             <Route path="/lottery">
              <Lottery />
