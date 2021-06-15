@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import BigNumber from 'bignumber.js'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { provider } from 'web3-core'
-import { Image, Heading, BackgroundImage } from '@naga-uikit/naga-uikit'
+import { Image, BackgroundImage, Heading} from '@naga-uikit/naga-uikit'
 import { BLOCKS_PER_YEAR, CAKE_PER_BLOCK, CAKE_POOL_PID } from 'config'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
@@ -17,7 +17,7 @@ import FarmCard, { FarmWithStakedValue } from './components/FarmCard/FarmCard'
 import FarmTabButtons from './components/FarmTabButtons'
 import Divider from './components/Divider'
 
-export interface FarmsProps{
+export interface FarmsProps {
   tokenMode?: boolean
 }
 
@@ -30,7 +30,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   const cakePrice = usePriceCakeBusd()
   const bnbPrice = usePriceBnbBusd()
   const { account, ethereum }: { account: string; ethereum: provider } = useWallet()
-  const {tokenMode} = farmsProps;
+  const { tokenMode } = farmsProps;
 
   const dispatch = useDispatch()
   const { fastRefresh } = useRefresh()
@@ -59,7 +59,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.eggPerBlock || 1).times(new BigNumber(farm.poolWeight)) .div(new BigNumber(10).pow(18))
+        const cakeRewardPerBlock = new BigNumber(farm.eggPerBlock || 1).times(new BigNumber(farm.poolWeight)).div(new BigNumber(10).pow(18))
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
 
         let apy = cakePrice.times(cakeRewardPerYear);
@@ -70,7 +70,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           totalValue = totalValue.times(bnbPrice);
         }
 
-        if(totalValue.comparedTo(0) > 0){
+        if (totalValue.comparedTo(0) > 0) {
           apy = apy.div(totalValue);
         }
 
@@ -98,13 +98,13 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           tokenMode ?
             TranslateString(10002, 'Stake your tokens or your BNFTs to earn NAGA')
             :
-          TranslateString(320, 'Stake LP tokens to earn NAGA')
+            TranslateString(320, 'Stake LP tokens to earn NAGA')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center'}} {...{BackgroundImage : `url(${'/images/Naga_char/Character-02.png'})`  }}>
+      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }} {...{ BackgroundImage: `url(${'/images/Naga_char/Character-02.png'})` }}>
         {TranslateString(10000, ' ')}
       </Heading>
-      <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
+      <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
         <FlexLayout>
@@ -116,7 +116,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="images/Naga_char/Character-02.png" alt="illustration" width={380} height={525.96} marginLeft = {280} marginTop = {100} />
+      <Image src="images/Naga_char/Character-02.png" alt="illustration" width={380} height={525.96} marginLeft={280} marginTop={100} />
     </Page>
   )
 }

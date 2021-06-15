@@ -15,7 +15,6 @@ import './App.css'
 const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
 const Lottery = lazy(() => import('./views/Lottery'))
-// const Pools = lazy(() => import('./views/Pools'))
 // const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
 // const Bnft = lazy(() => import('./views/BNft'))
@@ -49,10 +48,10 @@ const App: React.FC = () => {
               <Farms />
             </Route>
             <Route path="/pools">
-              <Farms tokenMode/>
+              <Farms tokenMode />
             </Route>
             <Route path="/lottery">
-             <Lottery />
+              <Lottery />
             </Route>
             {/* <Route path="/bnfts">
              <Bnft />

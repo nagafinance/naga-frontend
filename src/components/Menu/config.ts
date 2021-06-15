@@ -30,7 +30,7 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  
+
   // {
   //   label: 'sNFT',
   //   icon: 'NftIcon',
@@ -89,12 +89,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Contact',
-        href : 'https://blockchain-the-new-gen.gitbook.io/ngen-1/about-us/contact'
+        href: 'https://blockchain-the-new-gen.gitbook.io/ngen-1/about-us/contact'
 
       },
       {
         label: 'Voting',
-        href : 'https://snapshot.org/#/nagafinance.eth'
+        href: 'https://snapshot.org/#/nagafinance.eth'
 
       },
       {

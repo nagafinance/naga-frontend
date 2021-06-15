@@ -14,6 +14,7 @@ const StyledCakeStats = styled(Card)`
   margin-right: auto;
 `
 
+
 const Row = styled.div`
   align-items: center;
   display: flex;
@@ -33,7 +34,7 @@ const CakeStats = () => {
   const marketCap = NAGAPrice.times(circSupply);
 
   let NAGAPerBlock = 10;
-  if(farms && farms[0] && farms[0].NAGAPerBlock){
+  if (farms && farms[0] && farms[0].NAGAPerBlock) {
     NAGAPerBlock = new BigNumber(farms[0].NAGAPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
@@ -43,7 +44,7 @@ const CakeStats = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(534, 'NAGA Stats')}
           <div>
-            <Button> <a href = "https://pancake.kiemtienonline360.com/#/swap?outputCurrency=0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d"> BUY NAGA </a> </Button>
+            <Button> <a href="https://pancake.kiemtienonline360.com/#/swap?outputCurrency=0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d"> BUY NAGA </a> </Button>
           </div>
 
         </Heading>

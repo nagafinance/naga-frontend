@@ -25,6 +25,10 @@
   },
   "dependencies": {
     "@binance-chain/bsc-use-wallet": "^0.8.1",
+    "@types/lodash": "^4.14.162",
+    "@types/styled-system": "^5.1.10",
+    "react-transition-group": "^4.4.1",
+    "styled-system": "^5.1.5",
     "@crowdin/crowdin-api-client": "^1.11.0",
     "@ethersproject/abi": "^5.2.0",
     "@naga-uikit/naga-uikit": "https://github.com/NGen-Defi-Society/naga-uikit.git",
@@ -60,6 +64,16 @@
     "eslint": "^7.27.0",
     "husky": "^4.3.0",
     "prettier": "^2.3.0",
-    "source-map-explorer": "^2.5.1"
+    "source-map-explorer": "^2.5.1",
+    "@storybook/addon-a11y": "^6.1.16",
+    "@storybook/addon-actions": "^6.1.16",
+    "@storybook/addon-essentials": "^6.1.16",
+    "@storybook/addon-links": "^6.1.16",
+    "@storybook/react": "^6.1.16",
+    "@types/react-transition-group": "^4.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.11.1"
   }
 }

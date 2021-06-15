@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
-import { Button, IconButton, useModal, AddIcon, Image } from '@naga-uikit/naga-uikit'
+import { Button, IconButton, Image,useModal, AddIcon} from '@naga-uikit/naga-uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import UnlockButton from 'components/UnlockButton'
 import Label from 'components/Label'
@@ -124,16 +124,16 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
           <BalanceAndCompound>
             <Balance value={getBalanceNumber(earnings, tokenDecimals)} isDisabled={isFinished} />
             {account && harvest && !isOldSyrup && (
-            <HarvestButton
-              disabled={!earnings.toNumber() || pendingTx}
-              text={pendingTx ? 'Collecting' : 'Harvest'}
-              onClick={async () => {
-                setPendingTx(true)
-                await onReward()
-                setPendingTx(false)
-              }}
-            />
-          )}
+              <HarvestButton
+                disabled={!earnings.toNumber() || pendingTx}
+                text={pendingTx ? 'Collecting' : 'Harvest'}
+                onClick={async () => {
+                  setPendingTx(true)
+                  await onReward()
+                  setPendingTx(false)
+                }}
+              />
+            )}
           </BalanceAndCompound>
         ) : (
           <OldSyrupTitle hasBalance={accountHasStakedBalance} />
@@ -155,10 +155,10 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
                   onClick={
                     isOldSyrup
                       ? async () => {
-                          setPendingTx(true)
-                          await onUnstake('0')
-                          setPendingTx(false)
-                        }
+                        setPendingTx(true)
+                        await onUnstake('0')
+                        setPendingTx(false)
+                      }
                       : onPresentWithdraw
                   }
                 >
