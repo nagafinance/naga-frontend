@@ -7,7 +7,7 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
-    label: 'BUY NAGA',
+    label: 'Trade',
     icon: 'TradeIcon',
     items: [
       {

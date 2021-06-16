@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { Button , Heading,Card, CardBody } from '@naga-uikit/naga-uikit'
+import { Button, Heading, Card, CardBody } from '@naga-uikit/naga-uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import BigNumber from 'bignumber.js'
 import useI18n from 'hooks/useI18n'
