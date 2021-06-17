@@ -59,7 +59,7 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@pancakeswap-libs/eslint-config-pancake": "1.0.0",
+    "@pancakeswap-libs/eslint-config-pancake": "^1.0.0",
     "@types/jest": "^26.0.23",
     "eslint": "^7.27.0",
     "husky": "^4.3.0",
@@ -72,8 +72,6 @@
     "@storybook/react": "^6.1.16",
     "@types/react-transition-group": "^4.4.0",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
-    "@typescript-eslint/parser": "^4.14.2",
-    "babel-loader": "^8.1.0",
-    "babel-plugin-styled-components": "^1.11.1"
+    "@typescript-eslint/parser": "^4.14.2"
   }
 }
