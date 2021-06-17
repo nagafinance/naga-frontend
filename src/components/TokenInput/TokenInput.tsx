@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js/bignumber'
-import { Button } from '@naga-uikit/naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit/'
 import useI18n from '../../hooks/useI18n'
 import Input, { InputProps } from '../Input'
 
@@ -38,7 +38,7 @@ const TokenInput: React.FC<TokenInputProps> = ({ max, symbol, onChange, onSelect
       {
         depositFeeBP > 0 ?
           <StyledMaxText>
-            {TranslateString(10001, ' ')}: {new BigNumber(value || 0).times(depositFeeBP/10000).toString()} {symbol}
+            {TranslateString(10001, ' ')}: {new BigNumber(value || 0).times(depositFeeBP / 10000).toString()} {symbol}
           </StyledMaxText>
           :
           null

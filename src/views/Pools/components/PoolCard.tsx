@@ -162,10 +162,10 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
                   onClick={
                     isOldSyrup
                       ? async () => {
-                          setPendingTx(true)
-                          await onUnstake('0')
-                          setPendingTx(false)
-                        }
+                        setPendingTx(true)
+                        await onUnstake('0')
+                        setPendingTx(false)
+                      }
                       : onPresentWithdraw
                   }
                 >

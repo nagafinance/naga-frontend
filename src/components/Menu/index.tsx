@@ -1,4 +1,4 @@
-  
+
 import React, { useContext } from 'react'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { allLanguages } from 'config/localisation/languageCodes'

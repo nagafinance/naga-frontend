@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { Heading, Card, CardBody, Button } from '@naga-uikit/naga-uikit'
+import { Button, Heading, Card, CardBody } from '@naga-uikit/naga-uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import BigNumber from 'bignumber.js'
 import useI18n from 'hooks/useI18n'
@@ -75,7 +75,7 @@ const FarmedStakingCard = () => {
         <CardImage src="/images/naga_real_logo.png" alt="naga logo" width={64} height={64} />
         <Block>
           <Label>{TranslateString(544, 'NAGA to Harvest')}</Label>
-          <CakeHarvestBalance earningsSum={earningsSum}/>
+          <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>~${(NAGAPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>

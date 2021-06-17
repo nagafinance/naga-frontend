@@ -56,7 +56,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
           isTokenOnly ?
             `https://pancake.kiemtienonline360.com//#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-          `https://pancake.kiemtienonline360.com//#/add/${liquidityUrlPathParts}`
+            `https://pancake.kiemtienonline360.com//#/add/${liquidityUrlPathParts}`
         }>
           {lpLabel}
         </StyledLinkExternal>
