@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Heading, Link, Image } from '@naga-uikit/naga-uikit'
+import { Text, Heading, Image } from 'naga-uikit'
+import { Link } from '@naga-uikit/naga-uikit'
 import useI18n from 'hooks/useI18n'
 
 const LayoutWrapper = styled.div`

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Heading, BaseLayout, Button, LinkExternal, Flex, Image } from '@naga-uikit/naga-uikit'
+import { Text, Heading, BaseLayout, Flex, Image } from 'naga-uikit'
+import {Button, LinkExternal } from '@naga-uikit/naga-uikit'
 import { ifosConfig } from 'config/constants'
 import useI18n from 'hooks/useI18n'
 import IfoCard from './components/IfoCard'

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, ChevronDownIcon, ChevronUpIcon } from '@naga-uikit/naga-uikit'
+import { Text, ChevronDownIcon, ChevronUpIcon } from 'naga-uikit'
 
 export interface ExpandableSectionButtonProps {
   onClick?: () => void

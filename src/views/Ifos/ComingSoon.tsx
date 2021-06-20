@@ -1,7 +1,8 @@
 // @ts-nocheck
 import React from 'react'
 import styled from 'styled-components'
-import { Button, Text } from '@naga-uikit/naga-uikit'
+import { Text } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import Container from 'components/layout/Container'

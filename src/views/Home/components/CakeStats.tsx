@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button, Card, CardBody, Heading, Text } from '@naga-uikit/naga-uikit'
+import { Card, CardBody, Heading, Text } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 import BigNumber from 'bignumber.js/bignumber'
 import styled from 'styled-components'
 import { getBalanceNumber } from 'utils/formatBalance'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from '@naga-uikit/naga-uikit'
+import { Text } from 'naga-uikit'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTotalRewards } from 'hooks/useTickets'
 

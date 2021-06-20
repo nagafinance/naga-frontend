@@ -1,6 +1,7 @@
 import BigNumber from 'bignumber.js'
 import React, { useCallback, useMemo, useState } from 'react'
-import { Button, Modal } from '@naga-uikit/naga-uikit'
+import { Modal } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 import ModalActions from 'components/ModalActions'
 import TokenInput from 'components/TokenInput'
 import useI18n from 'hooks/useI18n'

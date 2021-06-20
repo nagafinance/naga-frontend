@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react'
-import { Button, Modal } from '@naga-uikit/naga-uikit'
+import { Modal } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 import styled from 'styled-components'
 import { useWinningNumbers } from 'hooks/useTickets'
 import useI18n from 'hooks/useI18n'

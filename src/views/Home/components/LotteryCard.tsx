@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { useModal, CardBody, Card, Heading, Button } from '@naga-uikit/naga-uikit'
+import { useModal, CardBody, Card, Heading } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 import { getCakeAddress } from 'utils/addressHelpers'
 import { getBalanceNumber } from 'utils/formatBalance'
 import useI18n from 'hooks/useI18n'

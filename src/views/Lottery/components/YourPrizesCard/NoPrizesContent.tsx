@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Button, useModal } from '@naga-uikit/naga-uikit'
+import { Text, useModal } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 import useI18n from 'hooks/useI18n'
 import useTickets from 'hooks/useTickets'
 import MyTicketsModal from '../TicketCard/UserTicketsModal'

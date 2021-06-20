@@ -1,6 +1,7 @@
 import React, { ButtonHTMLAttributes } from 'react'
 import styled from 'styled-components'
-import { Button, Text } from '@naga-uikit/naga-uikit'
+import { Text } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   value: string

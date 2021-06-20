@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { useModal, Button, Text } from '@naga-uikit/naga-uikit'
+import { useModal, Text } from 'naga-uikit'
+import {  Button } from '@naga-uikit/naga-uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import BigNumber from 'bignumber.js'
 import { Contract } from 'web3-eth-contract'

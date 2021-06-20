@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Image, Button } from '@naga-uikit/naga-uikit'
+import { Image } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 import { CommunityTag } from 'components/Tags'
 import useI18n from 'hooks/useI18n'
 import Card from './Card'

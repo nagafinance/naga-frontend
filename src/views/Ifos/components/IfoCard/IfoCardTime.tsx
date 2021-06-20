@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, Text } from '@naga-uikit/naga-uikit'
+import { Text } from 'naga-uikit'
+import { Link } from '@naga-uikit/naga-uikit'
 import { IfoStatus } from 'config/constants/types'
 import getTimePeriods from 'utils/getTimePeriods'
 import useI18n from 'hooks/useI18n'

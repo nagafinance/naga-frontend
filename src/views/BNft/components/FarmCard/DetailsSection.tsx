@@ -1,7 +1,8 @@
 import React from 'react'
 import useI18n from 'hooks/useI18n'
 import styled from 'styled-components'
-import { Text, Flex, Link, LinkExternal } from '@naga-uikit/naga-uikit'
+import { Text, Flex } from 'naga-uikit'
+import { Link, LinkExternal } from '@naga-uikit/naga-uikit'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { Address } from 'config/constants/types'
 

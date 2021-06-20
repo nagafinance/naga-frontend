@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from '@naga-uikit/naga-uikit'
+import { Text } from 'naga-uikit'
 
 interface PastRoundCardErrorProps {
   error: {

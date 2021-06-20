@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button, LinkExternal, useModal } from '@naga-uikit/naga-uikit'
+import { useModal } from 'naga-uikit'
+import { Button, LinkExternal } from '@naga-uikit/naga-uikit'
 import useI18n from 'hooks/useI18n'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import useTickets from 'hooks/useTickets'

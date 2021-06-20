@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
-import { Text, LinkExternal, Link } from '@naga-uikit/naga-uikit'
+import { Text } from 'naga-uikit'
+import { LinkExternal, Link } from '@naga-uikit/naga-uikit'
 import useI18n from 'hooks/useI18n'
 
 export interface IfoCardDetailsProps {

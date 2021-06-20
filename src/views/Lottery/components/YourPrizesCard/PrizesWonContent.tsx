@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
-import { Button, Heading, Won, useModal } from '@naga-uikit/naga-uikit'
+import { Heading, Won, useModal } from 'naga-uikit'
+import { Button } from '@naga-uikit/naga-uikit'
 import useI18n from 'hooks/useI18n'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useMultiClaimLottery } from 'hooks/useBuyLottery'

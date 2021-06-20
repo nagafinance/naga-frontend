@@ -1,6 +1,7 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
-import { CalculateIcon, IconButton, useModal } from '@naga-uikit/naga-uikit/'
+import { CalculateIcon, useModal } from 'naga-uikit/'
+import { IconButton } from '@naga-uikit/naga-uikit'
 import { Address } from 'config/constants/types'
 import ApyCalculatorModal from './ApyCalculatorModal'
 

@@ -1,4 +1,4 @@
-import { MenuEntry } from '@naga-uikit/naga-uikit'
+import { MenuEntry } from 'naga-uikit'
 
 const config: MenuEntry[] = [
   {

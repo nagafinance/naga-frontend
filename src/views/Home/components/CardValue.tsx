@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { useCountUp } from 'react-countup'
-import { Text } from '@naga-uikit/naga-uikit'
+import { Text } from 'naga-uikit'
 
 interface CardValueProps {
   value: number

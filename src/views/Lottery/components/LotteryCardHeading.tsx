@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Heading, Text } from '@naga-uikit/naga-uikit'
+import { Flex, Heading, Text } from 'naga-uikit'
 
 interface HeadingProps {
   valueToDisplay?: string

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Heading } from '@naga-uikit/naga-uikit'
+import { Heading } from 'naga-uikit'
 
 const Title = styled(Heading).attrs({ size: 'lg' })`
   color: ${({ theme }) => theme.colors.secondary};

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tag, VerifiedIcon, CommunityIcon, BinanceIcon } from '@naga-uikit/naga-uikit'
+import { Tag, VerifiedIcon, CommunityIcon, BinanceIcon } from 'naga-uikit'
 
 const NoFeeTag = () => (
   <Tag variant="success" outline startIcon={<VerifiedIcon />}>

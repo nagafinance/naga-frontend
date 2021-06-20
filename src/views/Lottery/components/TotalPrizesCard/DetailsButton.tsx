@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ChevronDownIcon, Text } from '@naga-uikit/naga-uikit'
+import { ChevronDownIcon, Text } from 'naga-uikit'
 
 export interface DetailsButtonProps {
   onClick?: () => void

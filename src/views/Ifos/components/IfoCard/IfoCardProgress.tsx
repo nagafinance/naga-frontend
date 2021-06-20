@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Progress } from '@naga-uikit/naga-uikit'
+import { Progress } from 'naga-uikit'
 
 interface IfoCardProgressProps {
   progress: number
