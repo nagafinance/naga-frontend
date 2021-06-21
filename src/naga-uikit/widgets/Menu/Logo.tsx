@@ -50,11 +50,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" to={href} aria-label="Pancake home page">
+        <StyledLink as="a" href={href} aria-label="Naga home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Pancake home page">
+        <StyledLink href={href} aria-label="Naga home page">
           {innerLogo}
         </StyledLink>
       )}
