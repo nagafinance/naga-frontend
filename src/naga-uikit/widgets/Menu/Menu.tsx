@@ -4,7 +4,7 @@ import throttle from "lodash/throttle";
 import Overlay from "../../components/Overlay/Overlay";
 import { Flex } from "../../components/Flex";
 import { useMatchBreakpoints } from "../../hooks";
-import Logo from "@naga-uikit/naga-uikit/dist/widgets/Menu/Logo";
+import Logo from "./Logo";
 import Panel from "./Panel";
 import UserBlock from "./UserBlock";
 import { NavProps } from "./types";

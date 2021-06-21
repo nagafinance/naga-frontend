@@ -65,7 +65,13 @@
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "source-map-explorer": "^2.5.1",
+    "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.5",
-    "@types/react-transition-group": "^4.4.0"
+    "@types/react": "^17.0.1",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/react-transition-group": "^4.4.0",
+    "@types/styled-components": "^5.1.4",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2"
   }
 }
