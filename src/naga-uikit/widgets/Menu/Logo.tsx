@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import {Button , Link} from "@naga-uikit/naga-uikit"
 import { LogoIcon } from "../../components/Svg";
 import Flex from "../../components/Flex/Flex";
 import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "./icons";
 import MenuButton from "./MenuButton";
+// import Button from "views/Pools/components/HarvestButton";
 
 interface Props {
   isPushed: boolean;
@@ -50,11 +52,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" to={href} aria-label="Pancake home page">
+        <StyledLink as = 'a' href={href} aria-label="Pancake home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Pancake home page">
+        <StyledLink href={href} aria-label="Pancake home page">
           {innerLogo}
         </StyledLink>
       )}
