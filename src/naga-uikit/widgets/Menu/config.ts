@@ -93,21 +93,21 @@ export const links = [
     label: "More",
     icon: "MoreIcon",
     items: [
-      {
-        label: "Voting",
-        href: "https://snapshot.org/#/nagafinance.eth",
-      },
+      // {
+      //   label: "Voting",
+      //   href: "https://voting.pancakeswap.finance",
+      // },
       {
         label: "Github",
-        href: "https://github.com/NGen-Defi-Society",
+        href: "https://github.com/goosedefi/",
       },
       {
         label: "Docs",
-        href: "https://blockchain-the-new-gen.gitbook.io/",
+        href: "https://goosedefi.gitbook.io/goose-finance/",
       },
       {
         label: "Blog",
-        href: "https://blockchainthenewgen.com/",
+        href: "https://goosefinance.medium.com/",
       },
     ],
   },
@@ -120,7 +120,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/NagaFinance",
+        href: "https://t.me/goosedefi",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -175,9 +175,13 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/FinanceNaga",
+    href: "https://twitter.com/suphason2",
   },
-  
+  {
+    label: "Reddit",
+    icon: "RedditIcon",
+    href: "https://www.reddit.com/r/GooseFinanceofficial",
+  },
 ];
 
 export const MENU_HEIGHT = 64;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Button} from "@naga-uikit/naga-uikit";
+import { Button } from "@naga-uikit/naga-uikit";
 
 const MenuButton = styled(Button)`
   color: ${({ theme }) => theme.colors.text};

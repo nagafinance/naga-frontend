@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 // import { Link } from "react-router-dom";
-import {Button , Link} from "@naga-uikit/naga-uikit"
+import { Button, Link } from "@naga-uikit/naga-uikit"
 import { LogoIcon } from "../../components/Svg";
 import Flex from "../../components/Flex/Flex";
 import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "./icons";
@@ -52,7 +52,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as = 'a' href={href} aria-label="Pancake home page">
+        <StyledLink as='a' href={href} aria-label="Pancake home page">
           {innerLogo}
         </StyledLink>
       ) : (
