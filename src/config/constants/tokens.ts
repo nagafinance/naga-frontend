@@ -16,7 +16,7 @@ const tokens = {
       symbol: 'NAGA',
       address: {
         56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-        97: '0x6363C06453ECD85d922b108f77F3ABe254E24678',
+        97: '0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
       },
       decimals: 18,
       projectLink: 'https://pancakeswap.finance/',
