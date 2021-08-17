@@ -87,11 +87,11 @@ const config: MenuEntry[] = [
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      {
-        label: 'Contact',
-        href: 'https://blockchain-the-new-gen.gitbook.io/ngen-1/about-us/contact'
+      // {
+      //   label: 'Contact',
+      //   href: 'https://blockchain-the-new-gen.gitbook.io/ngen-1/about-us/contact'
 
-      },
+      // },
       {
         label: 'Voting',
         href: 'https://snapshot.org/#/nagafinance.eth'
@@ -101,10 +101,10 @@ const config: MenuEntry[] = [
         label: 'Github',
         href: 'https://github.com/NGen-Defi-Society',
       },
-      {
-        label: 'Docs',
-        href: 'https://blockchain-the-new-gen.gitbook.io/',
-      },
+      // {
+      //   label: 'Docs',
+      //   href: 'https://blockchain-the-new-gen.gitbook.io/',
+      // },
       {
         label: 'Blog',
         href: 'https://blockchainthenewgen.com/',

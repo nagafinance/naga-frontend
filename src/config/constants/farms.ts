@@ -7,12 +7,12 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'NAGA-BNB LP',
     lpAddresses: {
-      97: '0x1b1d866316b64176ae169b08ffecddad744617e1',
+      97: '0x89ba060ad0e27717cacff0ab5cd1f85f3c02937a',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
     tokenSymbol: 'NAGA',
     tokenAddresses: {
-      97: '0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
+      97: '0xA0931034f72C83333Efa4a586c583f345202Df0a',
       56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
     },
     quoteTokenSymbol: QuoteToken.BNB,
@@ -284,17 +284,34 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'NAGA',
     lpAddresses: {
-      97: '0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
+      97: '0xA0931034f72C83333Efa4a586c583f345202Df0a',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
     tokenSymbol: 'NAGA',
     tokenAddresses: {
-      97: '0x6a3e6259e5c7804eb23B8F579620fC7b2c83cd1d',
+      97: '0xA0931034f72C83333Efa4a586c583f345202Df0a',
       56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  // {
+  //   pid: 2,
+  //   risk: 5,
+  //   isTokenOnly: true,
+  //   lpSymbol: 'NAGA2',
+  //   lpAddresses: {
+  //     97: '0xA0931034f72C83333Efa4a586c583f345202Df0a',
+  //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+  //   },
+  //   tokenSymbol: 'NAGA2',
+  //   tokenAddresses: {
+  //     97: '0xA0931034f72C83333Efa4a586c583f345202Df0a',
+  //     56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+  //   },
+  //   quoteTokenSymbol: QuoteToken.BUSD,
+  //   quoteTokenAdresses: contracts.busd,
+  // },
   {
     pid: 2,
     risk: 5,
@@ -330,7 +347,7 @@ const farms: FarmConfig[] = [
   //   quoteTokenAdresses: contracts.busd,
   // },
   // {
-  //   pid: 14,
+  //   pid: 3,
   //   risk: 3,
   //   isTokenOnly: true,
   //   lpSymbol: 'WBNB',
@@ -500,6 +517,6 @@ const farms: FarmConfig[] = [
   //   quoteTokenAdresses: contracts.wbnb,
   // },
 
-  ]
+]
 
 export default farms
